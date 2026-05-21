@@ -1,0 +1,92 @@
+/* footer.css */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.footer-content {
+    max-width: 85rem; /* 1360px */
+    margin: 0 auto;
+    padding: 2.5rem; /* 40px */
+    display: flex;
+    gap: 9.6875rem; /* 155px */
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.footer-nav ul {
+    display: flex;
+    padding: 0;
+    gap: 3.125rem; /* 50px - mantendo o padrão que você tinha antes */
+}
+
+.footer-nav ul ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* 16px */
+    padding: 0;
+}
+
+.footer-nav strong {
+    color: #ededed;
+    font-size: 1.25rem; /* 20px */
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: 400;
+}
+
+.footer-nav li a{
+    list-style: none;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.newsletter-form input {
+    border-radius: 1.875rem; /* 30px */
+    border: none;
+    color: #aaaaaa;
+    padding: 0.75rem 1.25rem; /* 12px 20px */
+    width: 21.5rem; /* 344px */
+}
+
+.footer-social span {
+    color: #ededed;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.footer-social ul {
+    display: flex;
+    gap: 1.25rem; /* 20px */
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social li a {
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s;
+}
+
+.footer-social li a:hover {
+    opacity: 0.7;
+}
