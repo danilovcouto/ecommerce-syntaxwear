@@ -1,4 +1,4 @@
-/*section hero*/
+/*section hero*/ /* ctrl + alt + a */
 .hero-section {
     background: url(../../images/banners/hero.jpg) no-repeat center;
     position: relative;
@@ -55,4 +55,33 @@
     background-color: #6329a2;
     color: #ffffff;
     border-color: #6329a2;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 660px;
+        background-image: url(../../images/banners/hero-mobile.jpg);
+    }
+
+    .hero-overlay {
+        padding: 0;
+        /* justify-content: center; */
+    }
+
+    .hero-content .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-content .hero-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .hero-content {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
 }
