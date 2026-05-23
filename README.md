@@ -50,7 +50,7 @@ Como este é um projeto estático (HTML e CSS), você pode visualizá-lo de form
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/danilovcouto100/ecommerce-syntaxwear.git
+   git clone https://github.com/danilovcouto/ecommerce-syntaxwear.git
    ```
 2. Navegue até a pasta do projeto:
    ```bash
