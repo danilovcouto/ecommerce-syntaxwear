@@ -1,46 +1,68 @@
+# SyntaxWear - Tênis e Sneakers Online 👟
 
-# SyntaxWear
+A **SyntaxWear** é uma loja virtual moderna e estilosa especializada na venda de tênis e sneakers. Este projeto foi desenvolvido para demonstrar habilidades em desenvolvimento front-end, focando em uma interface de usuário atraente, responsiva e focada na experiência do cliente (UX).
 
-SyntaxWear is a modern and stylish e-commerce website for selling sneakers and shoes online. This project was developed as a demonstration of front-end skills, focusing on creating an attractive and responsive user interface using HTML and CSS.
+![SyntaxWear Preview](./images/banners/hero.jpg)
 
-## Features
+## 🚀 O Projeto
 
-- **Responsive Design:** The layout adapts to different screen sizes, providing a good experience on desktops, tablets, and mobile devices.
-- **Modern UI/UX:** Clean and modern design, with a focus on usability and user experience.
-- **CSS Components:** The CSS is organized into components, making it easy to maintain and reuse styles.
-- **Product Showcase:** The home page features a hero section, product categories, and a product grid to showcase the products.
-- **Newsletter Subscription:** A newsletter subscription form in the footer.
-- **Social Media Links:** Links to social media profiles in the footer.
+O site apresenta uma coleção exclusiva de calçados, dividida por categorias e estilos, permitindo que o usuário navegue por modelos casuais, esportivos, modernos e futuristas. O destaque da coleção é o modelo **Krypton One**, que simboliza a proposta da marca: "Transforme qualquer passo em presença".
 
-## Technologies Used
+## ✨ Funcionalidades
 
-- **HTML5:** For the structure and content of the web pages.
-- **CSS3:** For styling the website, using modern features like Flexbox and Grid Layout.
-- **Google Fonts:** For custom fonts.
-- **VS Code:** As the code editor.
-- **Git & GitHub:** For version control.
+- **Design Responsivo:** Layout adaptável para dispositivos móveis, tablets e desktops (Mobile-First).
+- **Navegação Intuitiva:** Menu hamburguer para dispositivos móveis e links rápidos para categorias principais.
+- **Categorias de Produtos:** Seção dedicada para filtrar modelos por estilo (Casual, Esporte, Moderno, Futurista).
+- **Vitrine de Destaques:** Grid de produtos visualmente organizado para destacar os modelos mais vendidos.
+- **Newsletter:** Área de inscrição para receber novidades por e-mail.
+- **Integração Social:** Links para redes sociais (Instagram, WhatsApp, TikTok e Facebook).
 
-## Folder Structure
+## 🛠️ Tecnologias Utilizadas
 
-The project is organized into the following folders:
+- **HTML5:** Estruturação semântica do conteúdo.
+- **CSS3:** Estilização avançada utilizando:
+    - **Flexbox & CSS Grid:** Para layouts complexos e responsivos.
+    - **Variáveis CSS:** Para facilitar a manutenção de cores e tipografia.
+    - **Metodologia de Componentes:** Organização do código em arquivos separados (header, footer, hero, etc.).
+- **Google Fonts:** Utilização da fonte 'Ubuntu' para uma tipografia moderna e legível.
 
-- **/css:** Contains the CSS files, organized into base styles, components, and variables.
-  - **/components:** Contains the CSS for each component of the website (header, footer, etc.).
-- **/images:** Contains all the images used in the project, such as logos, banners, and product images.
-- **/js:** Contains the JavaScript files (currently empty).
-- **index.html:** The main HTML file of the website.
-- **README.md:** This file.
+## 📂 Estrutura de Pastas
 
-## How to Run the Project
-
-To run this project locally, simply open the `index.html` file in your web browser.
-
-```bash
-# Clone the repository
-git clone https://github.com/danilovcouto100/ecommerce-syntaxwear.git
-
-# Navigate to the project directory
-cd ecommerce-syntaxwear
-
-# Open index.html in your browser
+```text
+ecommerce-syntaxwear/
+├── css/                     # Estilos globais e configurações
+│   ├── components/          # Componentes isolados (header, footer, etc.)
+│   ├── base.css             # Estilos base do projeto
+│   ├── reset.css            # Reset de estilos do navegador
+│   └── variables.css        # Definição de cores e fontes
+├── images/                  # Ativos visuais
+│   ├── banners/             # Imagens principais e hero
+│   ├── icons/               # Ícones da interface (SVG)
+│   ├── logo/                # Logo oficial da marca
+│   └── products/            # Imagens dos tênis e modelos
+├── index.html               # Página principal do projeto
+└── README.md                # Documentação do projeto
 ```
+
+## 💻 Como Executar
+
+Como este é um projeto estático (HTML e CSS), você pode visualizá-lo de forma muito simples:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/danilovcouto100/ecommerce-syntaxwear.git
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd ecommerce-syntaxwear
+   ```
+3. Abra o arquivo `index.html` no seu navegador de preferência.
+
+---
+
+## 👨‍💻 Autor
+
+Este projeto foi desenvolvido como parte de um curso de aprendizado em JavaScript/Front-end por **Danilo Couto**.
+
+---
+*Este é um projeto de estudo e demonstração de portfólio.*
