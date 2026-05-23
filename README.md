@@ -19,8 +19,8 @@ O site apresenta uma coleção exclusiva de calçados, dividida por categorias e
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5:** Estruturação semântica do conteúdo.
-- **CSS3:** Estilização avançada utilizando:
+- **HTML:** Estruturação semântica do conteúdo.
+- **CSS:** Estilização avançada utilizando:
     - **Flexbox & CSS Grid:** Para layouts complexos e responsivos.
     - **Variáveis CSS:** Para facilitar a manutenção de cores e tipografia.
     - **Metodologia de Componentes:** Organização do código em arquivos separados (header, footer, hero, etc.).
